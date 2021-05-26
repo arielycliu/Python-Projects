@@ -11,11 +11,12 @@ def read_places_and_stuff(): # returns dictionary of places
     return Place
 
 
-def look_around():
+def look_around(cur_place):
     Place = read_places_and_stuff()
     print("Nearby you can see: ")
     for key in Place.keys():
-        print("     " + key)
+        if key != cur_place:
+            print("     " + key)
     print("To head somewhere or look close at each location use 'go to placename' ")
 
 def read_place_name(examinePlace):

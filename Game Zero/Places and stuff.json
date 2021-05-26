@@ -1,4 +1,8 @@
 {
+    "town": {
+        "description": "A small town in the mountains",
+        "name": "town"
+    },
     "church": {},
     "house": {
         "description": "A creaky old house",
@@ -12,7 +16,7 @@
                 "name": "snail"
             }
         },
-        "name": "House"
+        "name": "house"
     },
     "store": {}
 }
